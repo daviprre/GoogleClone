@@ -1,0 +1,8 @@
+By David Stiven Preciado Rendon	07/03/2021 medellin-colombia 18:50
+
+Obs: Este proyecto se basa en una copia de la pagina principal de google. Con el objetivo de repasar conceptos aprendidos en
+varios cursos de html y de css.
+
+- El objetivo consiste en inicialmente realizar una primera version, intentando utilizar todos los recursos aprendidos, sin necesidad
+de mirar nada hecho por el profesor. Osea, utilizar internet, apuntes para recordar cosas etc. Ya despues de finalizarlo, mirar las 
+diferencias en cuanto a yo como lo hice, y como lo hizo Diego, para asi realizar una segunda version con mejores practicas.

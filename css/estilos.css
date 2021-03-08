@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Initial-Container{
+    /* border: 1px red solid; */
+    height: 50px;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end ; 
+    align-items: center;   
+    padding-right: 15px;
+    
+}
+
+
+.Initial-Container .Google-Browser{
+    text-decoration: none;
+    text-transform: none;
+    color: #111111; 
+    margin: 5px;
+    height: auto;
+    padding: 0;
+    
+    
+}
+
+.Initial-Container .Google-Images{
+    text-decoration: none;
+    text-transform: none;
+    color: #111111; 
+    margin: 5px;
+    height: auto;
+    padding: 0;
+    padding-right: 20px;
+}
+
+.Initial-Container {
+    text-decoration: none;
+    text-transform: none;
+    color: #111111; 
+}
+
+.Initial-Container .Google-Aplications{
+    text-decoration: none;
+    text-transform: none;
+    width: 23px;
+    height: 23px;
+    color: #111111; 
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.Initial-Container .Google-Profile{
+    text-decoration: none;
+    text-transform: none;
+    width: 28px;
+    height: 28px;
+    color: #111111; 
+    border-radius: 50%;   
+}
+
+.Initial-Container .Google-Browser:hover{
+    text-decoration: underline;
+}
+
+.Initial-Container .Google-Images:hover{
+    text-decoration: underline;
+}
+
+.Initial-Container .Google-Aplications:hover{
+    background-color: #D3D3D3;
+}
