@@ -37,6 +37,7 @@
     height: auto;
     padding: 0;
     padding-right: 20px;
+    position: relative;
 }
 
 .Initial-Container {
@@ -74,4 +75,144 @@
 
 .Initial-Container .Google-Aplications:hover{
     background-color: #D3D3D3;
+}
+
+.Initial-Container .Google-Profile:hover{
+    
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 0 0.4em olive; 
+}
+
+.Principal-Container{
+    /* border: 1px solid red; */
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Principal-Container .Google-image{
+    margin-bottom: 10px;
+    width: 400px;    
+    height: auto;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.Principal-Container .input-container{
+    border: 1px solid #dfe1e5;
+    padding: 0;
+    margin: 20px;
+    /* margin-top: -200px; */
+    height: 35px;
+    width: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    border-end-end-radius: 50%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+    
+}
+
+.Principal-Container .input-container:hover{
+    box-shadow: 0 0 0.5em  rgb(32 33 36 / 28%);
+    
+}
+
+
+.Principal-Container .input-container .Browser-text{
+    border: none;
+    height: 100%;
+    width: 400px;
+    outline: none;
+
+}
+
+.Principal-Container .input-container .Browser-button{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png");
+    background-position: center;
+    background-size: 12px 18px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 40px;
+    margin: 0;
+    align-self: center;
+    border-bottom: none;
+    border-style: none;
+    border-color: white;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 80%;
+    padding-right: 50px;
+    outline: none;
+}
+
+.Principal-Container .input-container .Browser-image{
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-position: center;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 40px;
+    margin: 0;
+    align-self: center;
+    border-bottom: none;
+    border-style: none;
+    border-color: white;
+    border-radius: 80%;
+}
+
+.Principal-Container .buttons-container{  
+    width: 100%;
+    height: 45px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content:center;
+}
+  
+.Principal-Container .buttons-container button{
+    margin: 5px;
+    width: 180px;
+    background-color:#f8f9fa;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #3c4043;
+}
+
+.Principal-Container .buttons-container button:hover{
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.Principal-Container .text-container {
+    /* border: 1px solid #dadce0; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Principal-Container .text-container h1{
+    font-size: 13px;
+    color: #222;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+
+.Principal-Container .text-container a{
+    font-size: 13px;
+    font-weight: 100;
+    color: #1a0dab;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
