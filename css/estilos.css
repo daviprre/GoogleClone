@@ -86,16 +86,17 @@
 .Principal-Container{
     /* border: 1px solid red; */
     height: 530px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     
 }
 
 .Principal-Container .Google-image{
     margin-bottom: 10px;
-    width: 400px;    
+    width: 280px;    
     height: auto;
     /* border: 1px solid black; */
     position: relative;
@@ -106,19 +107,17 @@
     padding: 0;
     margin: 20px;
     /* margin-top: -200px; */
-    height: 35px;
-    width: 480px;
+    height: 45px;
+    width: 580px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     justify-content: flex-end;
-    border-end-end-radius: 50%;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    
     
 }
 
@@ -127,11 +126,25 @@
     
 }
 
+.Principal-Container .input-container .Browser-image{
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-position: center;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 40px;
+    margin: 0;
+    border-bottom: none;
+    border-style: none;
+    border-color: white;
+    border-radius: 80%;
+}
+
 
 .Principal-Container .input-container .Browser-text{
     border: none;
     height: 100%;
-    width: 400px;
+    width: 480px;
     outline: none;
 
 }
@@ -155,23 +168,10 @@
     outline: none;
 }
 
-.Principal-Container .input-container .Browser-image{
-    background-image: url("https://img.icons8.com/android/24/000000/search.png");
-    background-position: center;
-    background-size: 14px 14px;
-    background-repeat: no-repeat;
-    height: 30px;
-    width: 40px;
-    margin: 0;
-    align-self: center;
-    border-bottom: none;
-    border-style: none;
-    border-color: white;
-    border-radius: 80%;
-}
+
 
 .Principal-Container .buttons-container{  
-    width: 100%;
+    width: auto;
     height: 45px;
     display: flex;
     margin-bottom: 20px;
