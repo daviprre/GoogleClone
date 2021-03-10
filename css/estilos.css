@@ -84,8 +84,8 @@
 }
 
 .Principal-Container{
-    /* border: 1px solid red; */
-    height: 530px;
+    /* border: 1px solid blue; */
+    height: 480px;
     margin-top: 15px;
     display: flex;
     flex-direction: column;
@@ -193,6 +193,14 @@
     color: #202124;
 }
 
+
+.Principal-Container .buttons-container button:focus{
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+
+
 .Principal-Container .text-container {
     /* border: 1px solid #dadce0; */
     width: 100%;
@@ -222,4 +230,66 @@
 .Principal-Container .text-container a:hover{
     text-decoration: underline;
 }
+
+.Foot-container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 105px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,.54);
+}
+
+.Foot-container .foot-up{
+    border-bottom: 1px solid #dadce0;
+    height: 30%;
+    padding-top: 20px;
+
+}
+
+.Foot-container .foot-down{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.Foot-container .foot-down .foot-down-left{
+    
+    justify-self: start;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.Foot-container .foot-down .foot-down-left a{
+    margin-right: 20px;
+}
+
+.Foot-container .foot-down .foot-down-right{
+    
+    justify-self: flex-end;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Foot-container .foot-down a{
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.Foot-container .foot-down a:hover{
+    text-decoration: underline;
+}
+
 
